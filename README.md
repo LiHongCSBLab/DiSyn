@@ -27,7 +27,7 @@ conda activate disyn
 | Drug           | SHA256                                                            |
 | -------------- | ----------------------------------------------------------------- |
 | 5-Fluorouracil | ![23f73c2b9e15af1fdc03ee081084b47b928433df40ed8dc86ff1b231b684f13d](https://github.com/LiHongCSBLab/DiSyn/blob/8453b3dbd27ffb84e3e4aacd4261f13b3436e621/best_models/5-Fluorouracil.pt)  |
-| Bicalutamide   | 534968be4b0fa70dedb82ea78cfd50272b83aecf2f8fc7c480a34fcd17d2bc4c  |
+| Bicalutamide   | [534968be4b0fa70dedb82ea78cfd50272b83aecf2f8fc7c480a34fcd17d2bc4c]([url](https://github.com/LiHongCSBLab/DiSyn/blob/93771c61e08a5d85530e2c33d949449bc0899a9f/best_models/Bicalutamide.pt))  |
 | Bleomycin      | 5948efc4c3508943847c11d75d17ea3e09230433d89445660fa745ba377e2deb  |
 | Cisplatin      | 02ad2b62dfd965fce5eaf80ed792ea1acebe61997cff17aa721d774f9d3dc2b8  |
 | Docetaxel      | b4c815b847f70fd97364551c0380f007fe45cfcb8cb2e661121118148375207d  |
