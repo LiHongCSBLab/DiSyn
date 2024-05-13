@@ -88,6 +88,7 @@ python main_task_specific_train_step2_ft.py --drug_name=$drug --recon_epochs=$re
 
 ## 3. Others
 Figures reproducing </br>
+For Figure reproducing, please refer to `./codes/fig2_reproduce.ipynb`
 
 Parts of implementations of this project come from
 ```commandline
