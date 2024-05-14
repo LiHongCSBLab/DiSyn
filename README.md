@@ -50,7 +50,7 @@ We have provided the model parameters with the highest metric(AUROC) obtained on
 | Vinblastine    | [a6a1ed7f9b32da3424e4a354ef2036e1d4b4370f7a2258b06a88c683eba70f13](https://github.com/LiHongCSBLab/DiSyn/blob/56faa78a02ae3b4f272e40c39c72b36ec4f836ce/best_models/Vinblastine.pt)     |
 | Vinorelbine    | [0f8dea963a249397d86d353025d58c63d1d3af19833c8648bbdea5e40c941750](https://github.com/LiHongCSBLab/DiSyn/blob/56faa78a02ae3b4f272e40c39c72b36ec4f836ce/best_models/Vinorelbine.pt)     |
 
-## 2. Model Retrain
+## 2. Model Retraining
 If you want to retrain the disyn models, refer to the following instructions.
 
 ### 2.1 Data
@@ -58,7 +58,7 @@ The pre-processed data we used for model training is accessible at `https://zeno
 For retraining, please unzip it and put it into ./data.
 
 ### 2.2 Model Retraining
-
+### initial steps
 ##### 2.2.1 Model Pre-train
 ```commandline
 python main_pretrain.py --nums_recon=$nums_recon --nums_critic=$nums_critic --drop_out=$drop_out
