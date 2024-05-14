@@ -10,7 +10,7 @@ This is a python implementation of Disentangled Synthesis Transfer Network for D
 
 ### 1.1 Installation
 
-**DiSyn** depends on PyTorch(>1.13), Numpy, scikit-learn, pandas.
+**DiSyn** depends on PyTorch(1.13), Numpy, scikit-learn, pandas.
 
 #### Conda environment
 
@@ -90,7 +90,7 @@ python main_task_specific_train_step2_ft.py --drug_name=$drug --recon_epochs=$re
 For Figure reproducing, please refer to `./codes/fig2_reproduce.ipynb`
 
 ## 4. Others
-Parts of implementations of this project come from
+Part of implementations of this project comes from
 ```commandline
 https://github.com/XieResearchGroup/CODE-AE/blob/6dc17a5f3b7ce2e89736d1d575fb75951bd2c9ea/code/fine_tuning.py.
 https://github.com/fungtion/DANN_py3/blob/master/functions.py
