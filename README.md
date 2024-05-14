@@ -51,7 +51,7 @@ We have provided the model parameters with the highest metric(AUROC) obtained on
 | Vinorelbine    | [0f8dea963a249397d86d353025d58c63d1d3af19833c8648bbdea5e40c941750](https://github.com/LiHongCSBLab/DiSyn/blob/56faa78a02ae3b4f272e40c39c72b36ec4f836ce/best_models/Vinorelbine.pt)     |
 
 ## 2. Model Retraining
-If you want to retrain the disyn models, refer to the following instructions.
+DiSyn adapted a composite architecture that consists of an unsupervised pretraining process and iterates between disentanglement and a synthetic-data-invovled specific training stages. If you want to retrain the disyn models, refer to the following instructions.
 
 ### 2.1 Data
 The pre-processed data we used for model training is accessible at `https://zenodo.org` </br>
