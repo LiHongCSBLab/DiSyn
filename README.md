@@ -86,10 +86,10 @@ python main_task_specific_train_step2_recon.py --drug_name=$drug --step=$step  -
 python main_task_specific_train_step2_ft.py --drug_name=$drug --recon_epochs=$recon_epochs --clsadv_alpha=$clsadv_alpha --drop_out=$drop_out
 ```
 
-## 3. Others
-Figures reproducing </br>
+## 3. Figures reproducing
 For Figure reproducing, please refer to `./codes/fig2_reproduce.ipynb`
 
+## 4. Others
 Parts of implementations of this project come from
 ```commandline
 https://github.com/XieResearchGroup/CODE-AE/blob/6dc17a5f3b7ce2e89736d1d575fb75951bd2c9ea/code/fine_tuning.py.
