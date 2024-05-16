@@ -54,7 +54,7 @@ We have provided the model parameters with the highest metric(AUROC) obtained on
 DiSyn adapted a composite architecture that consists of an unsupervised pretraining process and iterates between disentanglement and a synthetic-data-invovled specific training stages. If you want to retrain the disyn models, refer to the following instructions.
 
 ### 2.1 Data
-The pre-processed data we used for model training is accessible at `https://zenodo.org` </br>
+The pre-processed data we used for model training is accessible at [Google Drive](https://drive.google.com/drive/folders/1TAX2J9lbhK3ffsvSrzvA-qCUvWIh7PiE?usp=sharing) </br>
 For retraining, please unzip it and put it into ./data.
 
 ### 2.2 Model Retraining
