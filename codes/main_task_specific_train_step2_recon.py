@@ -55,7 +55,7 @@ if __name__ == '__main__':
     parser.add_argument('--drug', type=str, default='tem', help='drug')
     parser.add_argument('--step', type=int, default=2, help='train iteration')
 
-    parser.add_argument('--recon_epochs', type=int, default=10, help='recon_epochs')
+    parser.add_argument('--recon_epochs', type=int, default=100, help='recon_epochs')
     parser.add_argument('--clsadv_alpha', type=float, default=0.3, help='clsadv_alpha')
     parser.add_argument('--clf_train_bf_recon', type=int, default=0, help='clf_train_bf_recon')
     parser.add_argument('--rev_back_internal', type=int, default=3, help='rev_back_internal')
