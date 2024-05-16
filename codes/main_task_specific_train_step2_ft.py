@@ -66,6 +66,6 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    args.model_path = f'../results/Disyn/Disyn_{args.seed}/task_specific_train_step{args.step}/{args.drug}/nums_recon_100_nums_critic_100_drop_out_0.0/clsadv_alpha_0.3_drop_out_0.0/recon_epochs_10'
+    args.model_path = f'../results/Disyn/Disyn_{args.seed}/task_specific_train_step{args.step}/{args.drug}/nums_recon_100_nums_critic_100_drop_out_0.0/clsadv_alpha_0.3_drop_out_0.0/recon_epochs_100'
 
     main(vars(args))
