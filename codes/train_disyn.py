@@ -435,7 +435,8 @@ def recon_classadv_train_di_adv(dsn_source, dsn_target, s_labeled_dataloader, t_
                                  optimizer=class_classifier_optimizer, loss_function=class_classifier_loss)
 
     for epoch in range(kwargs['recon_epochs']):
-
+        if epoch % 50 == 0:
+            print(f'recon epoch {epoch}')
         for step, s_batch in enumerate(s_labeled_dataloader):
 
             t_batch = next(iter(t_unlabeled_dataloader))
@@ -510,7 +511,8 @@ def task_specific_train_disyn_step2(dsn_source, dsn_target, s_labeled_train_data
 
     reset_count = 1
     for epoch in range(2000):
-
+        if epoch % 50 == 0:
+            print(f'train epoch {epoch}')
         for step, synthe_batch in enumerate(synthe_dataloader):
             classification_train_step(model=target_classifier,
                                       batch=synthe_batch,
