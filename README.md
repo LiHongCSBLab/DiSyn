@@ -55,7 +55,7 @@ DiSyn adapted a composite architecture that consists of an unsupervised pretrain
 
 ### 2.1 Data
 The pre-processed data we used for model training is accessible at [Google Drive](https://drive.google.com/drive/folders/1TAX2J9lbhK3ffsvSrzvA-qCUvWIh7PiE?usp=sharing) </br>
-For retraining, please put them into ./data.
+For retraining, please put these files into ./data.
 
 ### 2.2 Model Retraining
 ### initial steps
